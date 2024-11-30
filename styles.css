@@ -129,7 +129,7 @@ button {
 .btn__menu {
     display:none;
     background: transparent;
-    border: none0;
+    border: none;
     transition: all 300 ease;
 }
 
@@ -166,7 +166,6 @@ button {
 }
 
 .menu--open .modal {
-    visibility: visible;
     opacity: 1;
     transform: translateX(0);
 }
@@ -1054,25 +1053,6 @@ footer {
     margin-left: 16px;
     padding: 8px;
 }
-
-/*
-
-BLOBS
-
-*/
-
-.header__blob {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    color: #243e63;
-    opacity: .05;
-    width: 256px;
-    height: 256px;
-    transform: matrix(1, 0, 0 ,1, -163, 0);
-}
-
-
 
 @media (max-width: 1280px) {
     h1 {
