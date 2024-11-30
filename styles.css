@@ -450,14 +450,13 @@ STEPS
     width: 50%;
 }
 
+.steps__img--wrapper {
+    display: flex;
+}
+
 .steps__description {
     max-width: 576px;
     margin-left: 64px;
-}
-
-.steps__img--wrapper {
-    display: flex;
-    margin: 0px 56px;
 }
 
 .step {
